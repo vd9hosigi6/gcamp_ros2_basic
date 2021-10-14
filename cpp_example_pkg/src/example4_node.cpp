@@ -17,7 +17,7 @@ public:
 
         void subscribe_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
         {
-                RCLCPP_INFO(get_logger(), "distance from front side : %u", (msg->ranges)[360]);
+                RCLCPP_INFO(get_logger(), "distance from front side : %f", (msg->ranges)[360]);
         }
 };
 
