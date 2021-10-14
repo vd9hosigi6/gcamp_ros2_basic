@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'cmd_vel_node = py_example_pkg.cmd_vel_pub:main',
+                'cmd_vel_node = py_example_pkg.cmd_vel_node:main',
                 'laser_node = py_example_pkg.laser_node:main',
         ],
     },
